@@ -9,16 +9,16 @@ Or
 Run those commands:
 
 
-python3 -m venv .venv 
-source .venv/bin/activate 
-pip3 install flask   
-pip3 install flask-sqlalchemy 
-pip3 freeze > requirements.txt  
-export FLASK_APP=application.py
-export FLASK_ENV=development 
-python3
-from application import db
-from application import Beverages
-db.create_all()
-exit()
-flask run
+python3 -m venv .venv <br>
+source .venv/bin/activate <br>
+pip3 install flask   <br>
+pip3 install flask-sqlalchemy<br> 
+pip3 freeze > requirements.txt  <br>
+export FLASK_APP=application.py<br>
+export FLASK_ENV=development <br>
+python3<br>
+from application import db <br>
+from application import Beverages<br>
+db.create_all()<br>
+exit()<br>
+flask run<br>
